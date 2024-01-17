@@ -1,0 +1,31 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--accent-color);
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background-color: var(--tertiary-background-color);
+  color: var(--secondary-color);
+}
+.form-group textarea {
+  height: 100px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid var(--accent-color);
+  background-color: var(--secondary-background-color);
+}
