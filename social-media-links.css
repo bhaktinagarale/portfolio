@@ -1,0 +1,21 @@
+.social-media-links-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  /* position: fixed;
+  bottom: 50px;
+  left: 20px;
+  flex-direction: column; */
+}
+.icon-container {
+  padding: 5px;
+}
+.social-media-icon {
+  fill: var(--icons-color);
+  fill: var(--secondary-color);
+  height: 50px;
+  width: 50px;
+}
+.social-media-link:hover svg path {
+  fill: var(--accent-color);
+}
